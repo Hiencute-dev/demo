@@ -1,0 +1,53 @@
+
+:root{
+    --color-one:#103178;
+    --color-two:#FFC800;
+    --color-three:#5B6C8F;
+    --color-text:#AEB0B2;
+
+    --font:'inria Serif, serif'
+    
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font);
+    color: var(--color-text);
+
+}
+/* contaner dùng chung */
+.container{
+   width: 100%;
+   max-width: 1140px; 
+   margin-left: auto;
+   margin-right: auto;
+}
+a
+{   list-style-type: none;
+    text-decoration: none;
+}
+@media(max-width:1140px){
+    .container{
+        max-width: 960px;
+    }
+
+}
+@media(max-width:992px){
+    .container{
+        max-width: 720px;
+    }
+
+}
+@media(max-width:768px){
+    .container{
+        max-width: 540px;
+    }
+
+}
+@media(max-width:576px){
+    .container{
+        max-width: 100%;
+    }
+
+}
